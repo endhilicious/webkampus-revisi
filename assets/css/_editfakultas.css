@@ -1,0 +1,67 @@
+/*
+Author: Muhammad Aryandi
+Universitas Hasanuddin
+Teknik Informatika
+*/
+div.wmuSlider{
+    height: 400px;
+}
+img#cot_img{
+    float: right;
+    width: 25%;
+}
+
+.slider-right img{
+    max-height: 400px;
+}
+div#list_data{
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    height: 120px;
+    background-color: #0066AD;
+} 
+div#list_data img{
+    width:  20%;
+    height:  100%;
+}
+div#list_data img.active{
+    opacity: 0.5;
+}
+#list_berita{
+    margin: 0px 1%;
+    width: 98%;
+    float: left;
+    display: flex;
+    overflow-x: auto;
+    min-height: 400px;
+}
+#berita_up{
+    margin: 10px 30px;
+    min-width: 300px;
+    min-height: 430px;
+    background-color: #fff;
+}
+#berita_up img{
+    height: 200px;
+    width: 100%;
+}
+#berita_up div{
+    margin: 10px;
+}
+#judul_berita{
+    font-size: 1.1em;
+    min-height: 60px;
+}
+#tanggal_berita{
+    font-size: 0.7em;
+    color: rgb(0, 224, 224);
+}
+#konten_berita{
+    font-size: 0.9em;
+}
+#selengkapnya{
+    margin: 10px;
+    font-size: 0.7em;
+    float: right;
+}
